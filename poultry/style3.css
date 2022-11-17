@@ -1,0 +1,266 @@
+/* heading */
+header {
+    width: 100%;
+    height: 300px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#iChick {
+     position: absolute;
+     left: 15%;
+     top: 150px;
+}
+
+#iLayer {
+     position: absolute;
+     left: 45%;
+     top: 150px;
+}
+
+#iCroiler {
+     position: absolute;
+     left: 75%;
+     top: 150px;
+}
+
+/* main body */
+
+body {
+    background-color: #333;
+    color: whitesmoke;
+    margin: 0px auto;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover, a:active {
+    color: #eee;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+article {
+    width: 100%;
+    height: 1000px;
+}
+
+/* item class*/
+div.item {
+    width: 30%;
+    position: absolute;
+    left: 0px;
+    top: 380px;
+}
+
+.item h5 {
+    width: 300px;
+    position: relative;
+}
+
+/* itemWord class*/
+
+div.itemWord {
+    width: 10%;
+    position: absolute;
+    left: 30%;
+    top: 380px;
+}
+
+.itemWord h3 {
+    height: 22.22px;
+}
+
+.itemWord h5 {
+    height: 180px;
+    position: relative;
+    top: 80px;
+    font-size: medium;
+}
+
+/* quantity class*/
+
+div.quantity {
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 380px;
+}
+
+.quantity h5 {
+    height: 180px;
+    font-size: medium;
+}
+
+.quantity input {
+    position: relative;
+    top: 80px;
+}
+
+/* rate class*/
+
+div.rate {
+    width: 20%;
+    position: absolute;
+    left: 60%;
+    top: 380px;
+}
+
+.rate h5 {
+    height: 180px;
+    position: relative;
+    top: 80px;
+    font-size: medium;
+}
+
+/* amount class*/
+
+div.amount {
+    width: 20%;
+    position: absolute;
+    left: 80%;
+    top: 380px;
+}
+
+.amount h5 {
+    height: 180px;
+    position: relative;
+    top: 80px;
+    font-size: medium;
+}
+
+/* total class*/
+
+div.total {
+    position: relative;
+    top: 900px;
+    height: 50px;
+}
+
+.total h5 {
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+    width: fit-content;
+}
+
+#t {
+    left: 25%;
+}
+
+#tt {
+    right: 7.5%;
+}
+
+/* footer */
+
+footer {
+    position: relative;
+}
+
+form {
+    margin-left: 5%;
+}
+
+/*Responsive design*/
+
+@media screen and (max-width: 799px) {
+
+    /*header*/
+
+    header {
+        width: 100%;
+        height: 200px;
+    }
+    h1 {
+        font-size: 30px;
+        top: 15px;
+    }
+
+    #iChick {
+        position: absolute;
+        left: 5%;
+        top: 80px;
+   }
+   
+   #iLayer {
+        position: absolute;
+        left: 35%;
+        top: 80px;
+   }
+   
+   #iCroiler {
+        position: absolute;
+        left: 65%;
+        top: 80px;
+   }
+
+    /*chart area*/
+
+    div.item {
+        visibility: hidden;
+        top: 280px;
+    }
+    div.itemWord {
+        left: 0%;
+        width: 30%;
+        top: 280px;
+    }
+    div.quantity {
+        left: 30%;
+        width: 25%;
+        top: 280px;
+    }
+    div.rate {
+        left: 55%;
+        width: 20%;
+        top: 280px;
+    }
+    div.amount {
+        left: 75%;
+        width: 25%;
+        top: 280px;
+    }
+    div.total {
+        position: relative;
+        top: 820px;
+    }
+    article {
+        width: 100%;
+        height: 950px;
+    }
+
+    .quantity h5 input {
+        width: 100%;
+    }
+    div.rate h3, div.amount h3 {
+        width: 75%;
+    }
+    div.rate h5, div.amount h5 {
+        top: 60px;
+    }
+}

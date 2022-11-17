@@ -1,0 +1,203 @@
+body {
+    background-color: #333;
+    color: whitesmoke;
+    margin: 0px auto;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover, a:active {
+    color: #eee;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+}
+
+div.im {
+    top: 0px;
+    opacity: 20%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+div.h {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    margin-top: 150px;
+    background-color: white;
+}
+
+nav {
+    height: 150px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    position: relative;
+    text-align: center;
+    top: -35px;
+}
+
+p {
+    margin-inline-start: 1%;
+    margin-inline-end: 1%;
+}
+
+
+figure.croiler {
+    position: absolute;
+    left: 16%;
+    top: 250px;
+    z-index: 4;
+}
+
+figure.layer {
+    position: absolute;
+    left: 31%;
+    top: 250px;
+    z-index: 4;
+}
+
+figure.chick {
+    position: absolute;
+    left: 46%;
+    top: 250px;
+    z-index: 4;
+}
+
+figure.egg {
+    position: absolute;
+    left: 61%;
+    top: 250px;
+    z-index: 4;
+}
+
+figure.shop {
+    position: absolute;
+    left: 76%;
+    top: 250px;
+    z-index: 4;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 799px) {
+    body {
+        background-color: #333;
+        color: whitesmoke;
+        margin: 0px auto;
+    }
+
+    header {
+        width: 100%;
+        height: 200px;
+    }
+    
+    div.im {  
+        /*opacity: 0%;*/
+        visibility: hidden;
+    }
+    
+    div.h {
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 0px;
+        margin-top: 50px;
+        background-color: white;  
+    }
+    
+    nav {
+        height: 50px;
+    }
+    
+    h1 {
+        font-size: 25px;
+        font-weight: 900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        position: relative;
+        text-align: center;
+        top: -18px;
+    }
+
+    #croilers.figure {
+        margin: 0px, auto;
+    }
+
+    img.croilers {
+        width: 100%;
+        height: auto;
+    }
+
+    img.layers {
+        width: 100%;
+        height: auto;
+    }
+
+    img.chicks {
+        width: 100%;
+        height: auto;
+    }
+
+    img.eggs {
+        width: 100%;
+        height: auto;
+    }
+
+    /* article */
+
+    section {
+        margin: 10px;
+    }
+
+    figure.croiler {
+        position: absolute;
+        left: 3.5%;
+        top: 130px;
+        margin: 0%;
+    }
+    
+    figure.layer {
+        position: absolute;
+        left: 23.5%;
+        top: 130px;
+        margin: 0%;
+    }
+    
+    figure.chick {
+        position: absolute;
+        left: 43.5%;
+        top: 130px;
+        margin: 0%;
+    }
+    
+    figure.egg {
+        position: absolute;
+        left: 63.5%;
+        top: 130px;
+        margin: 0%;
+    }
+    
+    figure.shop {
+        position: absolute;
+        left: 83.5%;
+        top: 130px;
+        margin: 0%;
+    }
+    
+}
